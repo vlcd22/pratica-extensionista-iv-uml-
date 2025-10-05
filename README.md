@@ -41,3 +41,13 @@ graph TD
     style Core fill:#baffc9,stroke:#333,stroke-width:2px
     style Infrastructure fill:#ffdfba,stroke:#333,stroke-width:2px
     style Shared fill:#f9f7d9,stroke:#333,stroke-width:2px
+
+    WebApp: Camada de apresentação (frontend). Construída em uma tecnologia como React, Angular ou Vue.js, é responsável por toda a interface do usuário. Ela consome os dados da Api.
+
+    Api: A camada de API (backend for frontend). Expõe os endpoints RESTful que a WebApp consome. É responsável por autenticação, autorização e encaminhamento de requisições para a camada Core.
+
+    Core: O coração da aplicação. Contém toda a lógica de negócio, serviços, entidades e regras que definem o que a aplicação faz, independentemente da tecnologia de UI ou banco de dados.
+
+    Infrastructure: Camada de infraestrutura. Contém as implementações concretas de acesso a recursos externos, como o banco de dados (repositórios), envio de e-mails, e integração com outros serviços.
+
+    Shared: Um pacote de utilitários comum, contendo código que pode ser reutilizado por múltiplas camadas, como modelos de dados (DTOs), constantes, e funções auxiliares.
