@@ -29,3 +29,4 @@ graph TD
     style Core fill:#baffc9,stroke:#333,stroke-width:2px
     style Infrastructure fill:#ffdfba,stroke:#333,stroke-width:2px
     style Shared fill:#f9f7d9,stroke:#333,stroke-width:2px
+
