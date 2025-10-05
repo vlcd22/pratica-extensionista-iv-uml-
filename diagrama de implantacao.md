@@ -1,4 +1,4 @@
-### Diagrama de Arquitetura de Implantação (Versão Simplificada)
+### 2. Diagrama de Arquitetura de Implantação (Versão Simplificada)
 
 Este diagrama ilustra a arquitetura de implantação na nuvem AWS de forma simplificada para garantir a renderização correta.
 
