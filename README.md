@@ -1,5 +1,3 @@
----
-
 # Prática Extencionista IV - Entrega 1
 ## Proposta de Arquitetura de Software para o Projeto "TaskMaster"
 
