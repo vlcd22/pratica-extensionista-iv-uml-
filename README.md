@@ -41,37 +41,3 @@ graph TD
     style Core fill:#baffc9,stroke:#333,stroke-width:2px
     style Infrastructure fill:#ffdfba,stroke:#333,stroke-width:2px
     style Shared fill:#f9f7d9,stroke:#333,stroke-width:2px
-
----
-
-### 3. Diagrama de Arquitetura de Implantação
-
-    Este diagrama ilustra como os componentes de software serão distribuídos na infraestrutura em nuvem na AWS.
-
-    ```mermaid
-    graph TD
-        subgraph "Internet"
-            Usuario[<i class="fa fa-user"></i> Usuário]
-    end
-
-    subgraph "AWS Cloud"
-        LB[AWS Load Balancer]
-
-        subgraph "Auto Scaling Group"
-            EC2_1[EC2 Instance 1<br>Servidor API]
-            EC2_2[EC2 Instance 2<br>Servidor API]
-        end
-
-        subgraph "Frontend Hosting"
-             S3[S3 Bucket<br>WebApp (React)]
-        end
-
-        RDS[<i class="fa fa-database"></i> AWS RDS<br>(PostgreSQL)]
-    end
-
-    Usuario --> S3
-    Usuario --> LB
-    LB --> EC2_1
-    LB --> EC2_2
-    EC2_1 --> RDS
-    EC2_2 --> RDS
