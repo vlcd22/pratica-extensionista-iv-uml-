@@ -1,8 +1,3 @@
-### 2. Diagrama de Arquitetura de Implantação
-
-Este diagrama ilustra como os componentes de software serão distribuídos no hardware e na infraestrutura em nuvem. Optamos por uma arquitetura escalável na AWS.
-
-```mermaid
 graph TD
     subgraph "Internet"
         Usuario[<i class="fa fa-user"></i> Usuário]
