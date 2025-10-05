@@ -42,14 +42,16 @@ graph TD
     style Infrastructure fill:#ffdfba,stroke:#333,stroke-width:2px
     style Shared fill:#f9f7d9,stroke:#333,stroke-width:2px
 
-    ### 3. Diagrama de Arquitetura de Implantação
+---
 
-Este diagrama ilustra como os componentes de software serão distribuídos na infraestrutura em nuvem na AWS.
+### 3. Diagrama de Arquitetura de Implantação
 
-```mermaid
-graph TD
-    subgraph "Internet"
-        Usuario[<i class="fa fa-user"></i> Usuário]
+    Este diagrama ilustra como os componentes de software serão distribuídos na infraestrutura em nuvem na AWS.
+
+    ```mermaid
+    graph TD
+        subgraph "Internet"
+            Usuario[<i class="fa fa-user"></i> Usuário]
     end
 
     subgraph "AWS Cloud"
