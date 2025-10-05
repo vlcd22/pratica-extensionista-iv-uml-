@@ -1,3 +1,15 @@
+# Prática Extencionista IV - Entrega 1
+## Proposta de Arquitetura de Software para o Projeto "TaskMaster"
+
+Este repositório contém a documentação e os artefatos de arquitetura de software para a primeira entrega da disciplina de Prática Extencionista IV. Toda a documentação e diagramas estão consolidados neste único arquivo.
+
+### Integrantes do Grupo
+
+* [Vicenzo Henrique Peruzzo]
+* [Vinicius Dalpasquale]
+
+---
+
 ### 1. Diagrama de Pacotes (Arquitetura da Aplicação)
 
 O Diagrama de Pacotes abaixo descreve a arquitetura lógica da nossa aplicação, o "TaskMaster", um sistema de gestão de tarefas. A arquitetura foi modelada utilizando uma abordagem de camadas para separar as responsabilidades e promover baixo acoplamento e alta coesão.
