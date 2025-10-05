@@ -30,8 +30,6 @@ graph TD
     style Infrastructure fill:#ffdfba,stroke:#333,stroke-width:2px
     style Shared fill:#f9f7d9,stroke:#333,stroke-width:2px
 
-### 2. Diagrama de Arquitetura de Implantação
-
 graph TD
     subgraph "Internet"
         Usuario[<i class="fa fa-user"></i> Usuário]
@@ -58,10 +56,6 @@ graph TD
     LB --> EC2_2
     EC2_1 --> RDS
     EC2_2 --> RDS
-
----
-
-### 3. Diagrama de Arquitetura DevOps
 
 graph LR
     subgraph "Desenvolvimento"
